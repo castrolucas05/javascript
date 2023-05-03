@@ -46,7 +46,7 @@ function verificar() {
         }
         img.style.width = '200px'
         res.style.textAlign = 'center' // pelo JS é possivel mudar o style(css) com o .style + o que quer fazer e atribuir (=) a propriedade.
-        res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
+        res.innerHTML = `Detectamos ${genero} com ${idade} anos. <br>`
         res.appendChild(img) //adiciona um elemento
     }
 }
